@@ -9,8 +9,8 @@ let package = Package(
 		.library(name: "PerfectHTTPServer", targets: ["PerfectHTTPServer"])
 	],
 	dependencies: [
-		.package(name: "PerfectNet", url: "https://github.com/PerfectlySoft/Perfect-Net", from: "3.1.2"),
-		.package(name: "PerfectHTTP", url: "https://github.com/PerfectlySoft/Perfect-HTTP", from: "3.0.12"),
+		.package(name: "PerfectNet", url: "https://github.com/zeionara/Perfect-Net", .branch("master")),
+		.package(name: "PerfectHTTP", url: "https://github.com/zeionara/Perfect-HTTP", .branch("master")),
 		.package(name: "PerfectCZlib", url: "https://github.com/PerfectlySoft/Perfect-CZlib-src", from: "0.0.0")
 	],
 	targets: [
